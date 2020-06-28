@@ -13,6 +13,8 @@
 		B20587DE249AEC6200DC2210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20587DC249AEC6200DC2210 /* Main.storyboard */; };
 		B20587E0249AEC6300DC2210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20587DF249AEC6300DC2210 /* Assets.xcassets */; };
 		B20587E3249AEC6300DC2210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20587E1249AEC6300DC2210 /* LaunchScreen.storyboard */; };
+		B20587EB249AEC7F00DC2210 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20587EA249AEC7F00DC2210 /* Card.swift */; };
+		B20587ED249AECDD00DC2210 /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20587EC249AECDD00DC2210 /* SetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B20587DF249AEC6300DC2210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20587E2249AEC6300DC2210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20587E4249AEC6300DC2210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20587EA249AEC7F00DC2210 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B20587EC249AECDD00DC2210 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B20587DF249AEC6300DC2210 /* Assets.xcassets */,
 				B20587E1249AEC6300DC2210 /* LaunchScreen.storyboard */,
 				B20587E4249AEC6300DC2210 /* Info.plist */,
+				B20587EA249AEC7F00DC2210 /* Card.swift */,
+				B20587EC249AECDD00DC2210 /* SetModel.swift */,
 			);
 			path = Set;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20587ED249AECDD00DC2210 /* SetModel.swift in Sources */,
 				B20587DB249AEC6200DC2210 /* ViewController.swift in Sources */,
 				B20587D7249AEC6200DC2210 /* AppDelegate.swift in Sources */,
 				B20587D9249AEC6200DC2210 /* SceneDelegate.swift in Sources */,
+				B20587EB249AEC7F00DC2210 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
